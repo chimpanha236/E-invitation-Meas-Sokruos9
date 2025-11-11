@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Rubik:ital,wght@0,300..900;1,300..900&family=Siemreap&display=swap');
+
+/* ធាតុដែលត្រូវនៅក្រោមគេបង្អស់ */
+.body-3 {
+    position: fixed !important;
+    z-index: -9999 !important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.font-1{ font-family: "moul"; font-size: 4vw;}
+.font-2{font-family: "siemreap";font-size: 4vw;}
+.text-1,.text-2,.text-3,.text-4,.text-5,.text-6,.text-7,.text-8 {line-height: 2vw;}
+
+body { 
+    background-image: url(/Kbach.png); 
+    background-size: 17vw;
+    background-color: rgb(230, 204, 216);
+    position: relative;
+    z-index: 0;
+}
+
+.background-2{ 
+    position: absolute; 
+    z-index: 9999;
+}
+
+.kbach-1{
+    width: 30vw; 
+    margin-top: -30vw;
+    display: block; 
+    margin-left: -1vw; 
+    position: sticky; 
+    top:0;
+    z-index: 100;
+}
+.kbach-2{
+    width: 30vw; 
+    margin-top: -30vw; 
+    display: block; 
+    margin-left: 69vw; 
+    position: sticky; 
+    top:0;
+    z-index: 100;
+}
+
+.logo-3{
+    width: 70%; position: absolute;
+    margin: auto; 
+    margin-top: 20vw; 
+    margin-left: 15vw;
+    position: relative;
+    z-index: 10;
+}
+
+.text-0{ 
+    margin-left: -3vw;
+    color: rgb(1, 68, 1); 
+    width: auto; 
+    text-align: center;
+    font-family: "Moul", serif; 
+    font-size: 5.5vw; 
+    text-shadow: 2px 2px rgb(144, 143, 139);
+    position: relative;
+    z-index: 10;
+}
+
+.text-1{ color: rgb(66, 65, 62); text-shadow: 1px 1px rgb(99, 71, 80); margin-left: 12vw; position: relative; z-index: 10;}
+.text-2{color: rgb(1, 66, 44); text-shadow: 1px 1px grey; margin-left: 02%; position: relative; z-index: 10;}
+.text-3{ color: rgb(66, 65, 62); text-shadow: 1px 1px rgb(99, 71, 80); margin-left: 10%; position: relative; z-index: 10;}
+.text-4{color: rgb(1, 66, 44); text-shadow: 1px 1px grey; margin-left: 02%; position: relative; z-index: 10;}
+.text-5{ color: rgb(66, 65, 62); text-shadow: 1px 1px rgb(99, 71, 80); margin-left: 13%; position: relative; z-index: 10;}
+.text-6{color: rgb(1, 66, 44); text-shadow: 1px 1px grey; margin-left: 02%; position: relative; z-index: 10;}
+.text-7{ color: rgb(66, 65, 62); text-shadow: 1px 1px rgb(99, 71, 80); margin-left: 10%; position: relative; z-index: 10;}
+.text-8{color: rgb(1, 66, 44); text-shadow: 1px 1px grey; margin-left: 02%; position: relative; z-index: 10;}
+
+.text-p1{
+    color: rgb(1, 68, 1); 
+    margin-top: 50px; 
+    text-shadow: 1px 1px rgb(129, 105, 61);
+    font-family: "moul"; 
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.text-p2{
+    color: rgb(4, 39, 3); 
+    text-shadow: 0.5px 0.5px rgb(55, 49, 49); 
+    font-family: "siemreap"; 
+    text-align: center; 
+    margin-left: 5vw; 
+    margin-right: 5vw; 
+    font-size: 3.5vw;
+    position: relative;
+    z-index: 10;
+}
+.text-p3{color: rgb(66, 65, 62); text-shadow: 1px 1px rgb(99, 71, 80); margin-left: 15vw; position: relative; z-index: 10;}
+.text-p4{color: rgb(66, 65, 62); text-shadow: 1px 1px rgb(99, 71, 80);margin-left: 25vw; position: relative; z-index: 10;}
+.text-p5{color:  rgb(66, 65, 62); text-shadow: 1px 1px rgb(99, 71, 80); text-align: center; margin-top: -5vw; position: relative; z-index: 10;}
+.text-p6{color: rgb(1, 66, 44); text-shadow: 1px 1px grey; margin-left: 13vw;margin-top: -5vw; position: relative; z-index: 10;}
+.text-p7{color: rgb(1, 66, 44); text-shadow: 1px 1px grey; margin-left: 20vw; position: relative; z-index: 10;}
+.text-p8{color: rgb(4, 39, 3); text-shadow: 0.5px 0.5px rgb(55, 49, 49); font-size: 3.5vw; text-align: center; position: relative; z-index: 10;}
+.text-p10,.text-p11,.text-p12,.textsat-1,.textsat-2,.text-p20{ 
+    text-align: center;
+    text-shadow: 1px 1px grey;
+    position: relative;
+    z-index: 10;
+}
+.text-p10{margin-top: 10vw;text-shadow: 1px 1px grey;}
+.text-p11{margin-top: -3vw;text-shadow: 1px 1px grey;}
+.text-p13,.text-p14,.text-p15,.text-p16,.text-p17,.text-p18,.text-p19,.text-20,.text-p21,.text-p22,.textsat-3,.textsat-4,.textsat-5,.textsat-6 
+{
+    font-size: 3.5vw;
+    font-family: "siemreap"; 
+    margin-left: 40vw; 
+    margin-right: 5vw; 
+    text-shadow: 1px 1px grey;
+    position: relative;
+    z-index: 10;
+}
+
+.textsat-3{ margin-top: -20vw; display: flex;}
+.textsat-4{ margin-top: -13vw;}
+.textsat-5{ margin-top: -13vw;}
+.textsat-6{ margin-top: -13vw; margin-bottom: 10vw;}
+
+.people{width: 10vw; margin-left: 15vw; position: relative; z-index: 10;}
+.cut-hair{width: 10vw; margin-left: 15vw; position: relative; z-index: 10;}
+.sompeas{width: 30vw; margin-left: 5vw; margin-top: -10vw; position: relative; z-index: 10;}
+.eating{width: 12vw; margin-left: 13vw; position: relative; z-index: 10;}
+.dance{width: 15vw; margin-left: 12vw; position: relative; z-index: 10;}
+.Ring{width: 15vw; margin-left: 12vw; position: relative; z-index: 10;}
+.pka-sla{width: 20vw;margin-left: 12vw;margin-top: -3vw; position: relative; z-index: 10;}
+.monk{width: 15vw;margin-left: 12vw;margin-top: -1vw; position: relative; z-index: 10;}
+.bay-sey{width: 20vw;margin-left: 11vw; position: relative; z-index: 10;}
+.people-sit{width: 15vw;margin-left: 12vw; position: relative; z-index: 10;}
+.fruit{width: 13vw;margin-left: 15vw; margin-top: 5vw; position: relative; z-index: 10;}
+
+.text-p13{ margin-top: -14vw; display: flex;}
+.text-p14{ margin-top: -15vw;}
+.text-p15{ margin-top: -18vw;}
+.text-p16{ margin-top: -13vw;}
+.text-p17{ margin-top: -13vw;}
+.text-p18{ margin-top: -23vw;}
+.text-p19{ margin-top: -13vw;}
+.text-p21{ margin-top: -13vw;}
+.text-p22{ margin-top: -13vw;}
+
+.text-p24{ text-align: center; margin-top: 10vw;
+    margin-left: 1vw; font-size: 3vw;
+    text-shadow: 1px 1px grey; position: relative; z-index: 10;}
+
+.gallery-1{position: relative; z-index: 10;}
+
+.text-p30{
+    color: rgb(240, 245, 245); 
+    text-align: center; 
+    align-content: center; 
+    background-color: rgb(79, 125, 86);
+    width: 50vw; 
+    height: 8vh; 
+    margin-left: 25%; 
+    border-radius: 25px; 
+    border: 2px solid gold;
+    position: relative;
+    z-index: 10;
+}
+
+.pic-31{width: 100%; border-radius: 25px; position: relative; padding: 2px; z-index: 10;}
+
+.Pic-123 { 
+    display: inline-block; 
+    width: 40%; 
+    position:relative; 
+    border-radius: 25px;
+    z-index: 10;
+}
+.Pic-12{width: 123%; border-radius: 25px;position: absolute; z-index: 10;}
+.Pic-13{width:  123%; position: relative; margin-left: 48vw;border-radius: 25px; z-index: 10;}
+
+.wall-1{ width: 98vw; border-radius: 5%; margin-left: -1vw; position: relative; z-index: 10; }
+.wall-2{width: 48vw; margin-left: -1vw;border-radius: 5%;margin-top: 1vw; position: relative; z-index: 10;}
+.wall-3{width: 48vw; border-radius: 5%; margin-top: -100vw; margin-left: 49vw; margin-bottom: 4.8vw; position: relative; z-index: 10;}
+
+button{  
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    font-size: 1.5vw;
+    text-align: center; 
+    margin-left: -1vw;
+    cursor: pointer; 
+    outline: none; 
+    border-radius: 1px; 
+    background-color: bisque;
+    width: 8vw; 
+    position: sticky; 
+    bottom: 65vw; 
+    margin-top: -440vw;
+    z-index: 100;
+}
+.click-pic{
+    box-shadow: 5px 5px 5px rgb(135, 141, 141);
+    width: 20vw; 
+    display: flex; 
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+    z-index: 10;
+    animation: zoomInOut 1s ease-in-out infinite alternate}
+.map-1{
+    box-shadow: 2px 2px 2px 2px rgb(135, 141, 141);
+    width: 30vw; 
+    display: flex; 
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 2vw;
+    animation: zoomInOut 1s ease-in-out infinite alternate}
+a{text-decoration: none;}
+
+
+.pic-4{ margin-left: -7px; position: relative; z-index: 10;}
+.footer-2{ font-size: 5vw; position: relative; z-index: 10;}
+h5{
+    font-size: 3vw;  text-decoration: none;
+    text-align: center; 
+    font-family: "Siemreap", sans-serif; 
+    color: blue; 
+    font-weight: 400; 
+    margin-top: 0%;
+    position: relative;
+    z-index: 10; margin-bottom: 10vw;
+   
+}
+
+.F0{ 
+    width: 25vw; 
+    position: fixed;
+    z-index: 49;
+    animation: none !important;
+    top: 1vh;
+    left: 30vw;
+}
+.F0-1{ 
+    width: 25vw; 
+    position: fixed;
+    z-index: 49;
+    animation: none !important;
+    top: 1vh;
+    left: 50vw;
+    transform: scaleX(-1);
+}
+.F1{ 
+    width: 25vw; 
+    position: fixed;
+    z-index: 50;
+    animation: none !important;
+    top: 10vh;
+    left: 10vw;
+}
+
+.F2{ 
+    width: 25vw; 
+    position: fixed;
+    z-index: 51;
+    animation: none !important;
+    top: 20vh;
+    left: 5vw;
+}
+.F3{ 
+    width: 25vw; 
+    position: fixed;
+    z-index: 52;
+    animation: none !important;
+    top: 10vh;
+    left: 65vw;
+    transform: scaleX(-1);
+}
+.F4{ 
+    width: 25vw; 
+    position: fixed;
+    z-index: 52;
+    animation: none !important;
+    top: 10vh;
+    left: 65vw;
+    transform: scaleX(-1);
+}
+
+/* Word Thz*/
+.thank-you-section {
+            background:  rgba(154, 119, 119, 0.5);
+            padding: 50px 20px;
+            text-align: center;
+            border-top: 3px solid #e91e63;
+            border-bottom: 3px solid #e91e63;
+            margin-top: 10vw;
+            width: 87vw; height: 15vw;
+            border-radius: 15px;
+        }
+
+        .thank-you-title {
+            font-family: "Moul" sans-serif;
+            font-size: 6vw;
+            color: #c2185b;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .flower-decoration {
+            font-size: 2rem;
+            margin: 20px 0;
+            color: #e91e63;
+        }
+
+        @media (max-width: 768px) {
+            .thank-you-title {
+                font-size: 4vw; font-family: "moul";
+            }
+      
+        }
+        /*End Word thz*/
+        
+@keyframes zoomInOut {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            } }

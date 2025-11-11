@@ -1,0 +1,68 @@
+.audio-player {
+    position: fixed;
+    bottom: 0vw;
+    left: 0; 
+    right: 0;
+    background: linear-gradient rgba( 000, fff, 000, 0.5);
+    padding: 10px 20px;
+ 
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* ✅ ឆ្វេង-ស្តាំ */
+ 
+ 
+    height: 3vw;
+}
+
+.audio-btn {
+    padding: 8px 15px;
+    background: rgba(249, 116, 116, 0.7);
+    color: #fcfafa;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    min-width: 90px;
+    justify-content: center;
+    height: 35px;
+    top: 185vw;
+    height: 5vw;
+}
+
+/* ✅ Button ឆ្វេង */
+.pause-btn {
+    margin-right: -50vw; /* ✅ ទាញខ្លួនឯងទៅឆ្វេង */
+}
+
+/* ✅ Button ស្តាំ */
+.mute-btn {
+    margin-left: -50vw; /* ✅ ទាញខ្លួនឯងទៅស្តាំ */
+}
+.audio-btn:hover {
+    background: rgb(31, 2, 161);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.song-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.song-title {
+   
+    font-size: 10px;
+    color: white;
+    font-weight: bold;}
+   

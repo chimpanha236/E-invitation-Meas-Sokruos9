@@ -1,0 +1,49 @@
+/* Butterfly Animation - កណ្តាលអេក្រង់ */
+.butterfly-animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5; /* ✅ កែពី 500 ទៅ 5 - ទាបជាង content */
+    pointer-events: none;
+    width: 80vw;
+    height: 60vh;
+}
+
+.B10, .B11, .B12, .B13, .B14,.B15,.B16,.B17,.B18,.B19,.B20{
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    animation: none !important;
+    z-index: 5; /* ✅ ដាក់ z-index ដូចគ្នា */
+}
+.C10,.C11,.C12,.C13,.C14,.C15,.C16,.C17,.C18,.C19,.C20 {
+    position: absolute;
+    width: 12vw;
+    height: auto;
+    animation: none !important;
+    z-index: 5; /* ✅ ដាក់ z-index ដូចគ្នា */
+}
+
+/* ✅ កំណត់ទីតាំងថ្កល់សម្រាប់ butterfly នីមួយៗ */
+.B10 { top: 10%; left: 10%; }
+.B11 { top: 5%;  left: 30%; }
+.B12 { top: 15%; left: 50%; }
+.B13 { top: 10%; left: 70%; }
+.B14 { top: 19%; left: 15%; }
+.B15 { top: 30%; left: 20%; }
+.B16 { top: 40%; left: 20%; }
+.B17 { top: 50%; left: 20%; }
+.B18 { top: 60%; left: 20%; }
+.B19 { top: 75%; left: 20%; }
+.B20 { top: 80%; left: 20%; }
+
+.C10 { top: 25%; left: 80%; }
+.C11 { top: 30%; left: 70%; }
+.C12 { top: 40%; left: 60%; }
+.C13 { top: 50%; left: 70%; }
+.C14 { top: 60%; left: 80%; }
+.C15 { top: 70%; left: 70%; }
+.C16 { top: 80%; left: 60%; }
+.C17 { top: 90%; left: 70%; }
+.C18 { top: 95%; left: 80%; }

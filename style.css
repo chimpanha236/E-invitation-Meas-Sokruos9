@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Rubik:ital,wght@0,300..900;1,300..900&family=Siemreap&display=swap');
+*{width: 100vw; ;}
+
+body { background-image: url(/frame-door1.png);
+background-repeat: no-repeat; background-attachment: scroll; margin-bottom: -2vw;
+background-size: 100%; }
+.text-1{
+    color: rgb(1, 68, 1); width: auto; margin-top: 5vw; text-align: center; margin-left: -5vw;
+    font-family: "Moul", serif; font-size: 5vw; text-shadow: 2px 2px rgb(144, 143, 139);}
+.logo-1{
+     width: 45%; 
+     display: flex; justify-content: center; align-content: center; margin: auto;
+     margin-top: 60vw;}
+.text-2{
+    color: rgb(1, 68, 1); text-align-last: center; text-shadow: 2px 2px rgb(144, 143, 139);
+    font-family: "Moul", serif; font-size: 4vw; margin-bottom: 10vw; margin-top: 7vw;}
+    
+/* animation butterfly */
+.B1{width: 8vw; position: absolute; animation-delay: 0s;
+    animation-name: B1 ; animation-duration: 07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B1 {
+        0%{ left: 13vw; top: 135vw;}
+        25%{ left: 18vw; top: 100vw; }
+        50%{ left: 28vw; top: 80vw;   }
+        75%{ left: 38vw; top: 60vw;   }
+        100%{ left: 48vw; top: 40vw;  }}
+.B2{width: 10vw;  position: absolute; animation-delay: 1s;
+    animation-name: B2 ; animation-duration: 07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B2 {
+        0%{ left: 10vw; top: 135vw;}
+        25%{ left: 15vw; top: 100vw; }
+        50%{ left: 25vw; top: 80vw;   }
+        75%{ left: 35vw; top: 60vw;   }
+        100%{ left: 45vw; top: 40vw;  }}
+        
+.B3{width: 8vw;   position: absolute; animation-delay: 2s;
+    animation-name: B3 ; animation-duration: 07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B3 {
+        0%{ left: 16vw; top: 135vw;}
+        25%{ left: 31vw; top: 100vw; }
+        50%{ left: 41vw; top: 80vw;   }
+        75%{ left: 51vw; top: 60vw;   }
+        100%{ left: 61vw; top: 40vw;  }}
+.B4{width: 10vw;   position: absolute; animation-delay: 3s;
+    animation-name: B4 ; animation-duration: 07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B4 {
+        0%{ left: 19vw; top: 135vw;}
+        25%{ left: 24vw; top: 100vw; }
+        50%{ left: 34vw; top: 80vw;   }
+        75%{ left: 44vw; top: 60vw;   }
+        100%{ left: 54vw; top: 40vw;  }}
+.B5{width: 10vw;   position: absolute; animation-delay: 4s;
+    animation-name: B5 ; animation-duration: 07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B5 {
+        0%{ left: 21vw; top: 135vw;}
+        25%{ left: 27vw; top: 100vw; }
+        50%{ left: 37vw; top: 80vw;   }
+        75%{ left: 47vw; top: 60vw;   }
+        100%{ left: 57vw; top: 40vw;  }}
+
+.B1-1{width: 10vw; position: absolute; 
+    animation-delay: 0s; transform: scaleX(-1);
+    animation-name: B1-1 ; animation-duration: 07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B1-1 {
+        0%{ left: 80vw; top: 135vw;}
+        25%{ left: 60vw; top: 100vw; }
+        50%{ left: 50vw; top: 80vw;   }
+        75%{ left: 40vw; top: 60vw;   }
+        100%{ left: 30vw; top: 40vw;}}
+.B1-2{width: 8vw;  position: absolute; animation-delay: 1s ;transform: scaleX(-1);
+    animation-name: B1-2 ; animation-duration: 07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B1-2 {
+         0%{ left: 75vw; top: 135vw;}
+        25%{ left: 65vw; top: 100vw; }
+        50%{ left: 55vw; top: 80vw;   }
+        75%{ left: 45vw; top: 60vw;   }
+        100%{ left: 35vw; top: 40vw;}}
+.B1-3{width: 10vw;   position: absolute; animation-delay: 2s;transform: scaleX(-1);
+    animation-name: B1-3 ; animation-duration: 07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B1-3 {
+        0%{ left: 70vw; top: 135vw;}
+        25%{ left: 63vw; top: 100vw; }
+        50%{ left: 53vw; top: 80vw;   }
+        75%{ left: 42vw; top: 60vw;   }
+        100%{ left: 30vw; top: 40vw;}}
+.B1-4{width: 10vw;   position: absolute; animation-delay: 3s;transform: scaleX(-1);
+    animation-name: B1-4 ; animation-duration: 07s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B1-4 {
+         0%{ left: 60vw; top: 135vw;}
+        25%{ left: 55vw; top: 100vw; }
+        50%{ left: 45vw; top: 80vw;   }
+        75%{ left: 35vw; top: 60vw;   }
+        100%{ left: 20vw; top: 40vw;}}
+.B1-5{width: 10vw;   position: absolute; animation-delay: 4s;transform: scaleX(-1);
+    animation-name: B1-5 ; animation-duration: 06s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+@keyframes B1-5 {
+        0%{ left: 60vw; top: 135vw;}
+        25%{ left: 35vw; top: 100vw; }
+        50%{ left: 25vw; top: 80vw;   }
+        75%{ left: 15vw; top: 60vw;   }
+        100%{ left: 10vw; top: 40vw;}}
+/* End Animation Butterfly*/
+
+
+/* ឈ្មោះភ្ញៀវ */
+.text-3{ color: rgb(245, 227, 122); font-family: "Moul", serif; font-size: 2.5vw;text-align: center; margin-top: -36vw;
+    ; padding: 1vw; width: auto; height: auto; margin-left: 15%; margin-right: 20%;}
+.frame-1{ margin-bottom: 0vw; margin-left: 18%; margin-right: 10%;
+    width: 60%; display: flex; margin-top: -30vw;}
+/* ចុចទៅធៀបទី២​ */
+.click-pic{box-shadow: 10px 10px 10px rgb(148, 179, 176); margin-bottom: -10vw;
+width: 10vw; display: flex; margin-left: 43vw; margin-right: auto; margin-top: 10%;
+animation: zoomInOut 1s ease-in-out infinite alternate
+}
+@keyframes zoomInOut {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.5);
+            }}
+.click-pic :hover{
+    transform: translateY(20px);
+     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+h5{font-size: 3vw; text-align: center; font-family: "Siemreap", sans-serif; margin-left: -2vw;
+    color: black; font-weight: 400; margin-top: 10vw; margin-bottom: 10vw; text-decoration: none; }
+a{color: blue; text-decoration: none; cursor: pointer;}        
+/* ផ្កាមុខធៀប */  
+.flower-big-1{width: 100%; margin-left: -2vw ; position: absolute; margin-top: -13vw}
